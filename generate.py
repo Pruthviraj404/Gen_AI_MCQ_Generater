@@ -41,7 +41,7 @@ Content:
 
   
 
-    client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+    client = Groq(api_key="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")
     
     completion = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
